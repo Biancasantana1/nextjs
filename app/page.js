@@ -22,8 +22,8 @@ function ProductTable({ blogMessages, filterText}) {
     }
     rows.push(
       <ProductRow
-        product={product}
-        key={product.name} />
+        message={message}
+        key={message.autor}/>
     );
   });
 
